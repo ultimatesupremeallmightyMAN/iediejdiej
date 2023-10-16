@@ -1,0 +1,52 @@
+<title>info</title>
+<section class="oppsett">
+    <a class="kolonne1"> Litt om oss!</a>
+    <div class="kolonne2">
+        <table>
+            <tr>
+                <th> vi er stolte over våre 6 stjerners hoteller rundt om i norden, vi har mange kjendiser som kommer på besøk</th>
+                <th>hvis du er en av dem kan du komme på kjendistavla vår!</th>
+            </tr>
+            <tr> <th>vi har mange fine kokker og servitører som kan gjøre hva enn du ønsker(til en grad)<br>
+            vi er også gode på renhold osv</th>
+            <th> vi er en ny hotellkjede som er glade for å ha deg på besøk.</th>
+                </tr>
+
+        </table>
+    </div>
+</section>
+
+<style>
+     .oppsett {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 80rem;
+        border: 10px solid #6d6362;
+    }
+    th, td {
+        border: 1px solid #ffffff;
+        padding: 8px;
+        text-align: left;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .bestilling{
+        background-color: white;
+    }
+
+    .kolonne1 {
+        background-color: #856562;
+    }
+    .kolonne1, .kolonne2 {
+        border: 2px solid black;
+        grid-column: span 3;
+    }
+    .kolonne1 {
+        color: white;
+        font-size: 5rem;
+        text-align: center;
+    }
+</style>

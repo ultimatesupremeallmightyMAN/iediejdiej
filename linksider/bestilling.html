@@ -1,0 +1,88 @@
+<title>bestilling</title>
+<section class="oppsett">
+    <a class="kolonne1"> overnattinger</a>
+    <div class="kolonne2">
+        <table>
+            <tr>
+                <th><label>etasje:</label>
+                    <select name="etasje">
+                        <option value="1">1 etasje</option>
+                        <option value="2">2 etasaje</option>
+                        <option value="3">3 etasaje</option>
+                        <option value="4">4 etasaje</option>
+                        <option value="5">5 etasaje</option></th>
+
+                <th> <form>
+                    <label for="senger">sengeplasser</label>
+                    <select name="senger">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    </form></th>
+
+                <th>  <label> Reisedato:</label>
+                    <input type="date">
+                </form></th>
+            </tr>
+            <tr>
+                <th><label>antall netter:</label>
+                    <select name="etasje">
+                        <option value="1">1 </option>
+                        <option value="2">2 </option>
+                        <option value="3">3 </option>
+                        <option value="4">4 </option>
+                        <option value="5">5 </option>
+                        <option value="6">6</option>
+                        <option value="7">7 </option>
+                        <option value="8">8 </option>
+                        <option value="9">9 </option>
+                        <option value="10">10 </option>
+                        <option value="11">11 </option>
+                        <option value="12">12 </option>
+
+                    </th>
+                    <th> hvis du planlegger å holde deg hos oss lengre enn 12 dager så kan du ringe resepsjonen tlf:1234567890
+                <button ><a href="bestillingbekreftet.html" target="_blank">Bekreft bestilling</a></button>
+                    </th>
+            </tr>
+
+        </table>
+    </div>
+</section>
+
+<style>
+     .oppsett {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 80rem;
+        border: 10px solid #6d6362;
+    }
+    th, td {
+        border: 1px solid #ffffff;
+        padding: 8px;
+        text-align: left;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .bestilling{
+        background-color: white;
+    }
+
+    .kolonne1 {
+        background-color: #856562;
+    }
+    .kolonne1, .kolonne2 {
+        border: 2px solid black;
+        grid-column: span 3;
+    }
+    .kolonne1 {
+        color: white;
+        font-size: 5rem;
+        text-align: center;
+    }
+</style>

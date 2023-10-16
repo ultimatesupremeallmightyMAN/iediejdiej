@@ -1,0 +1,48 @@
+<title>serverdigheter</title>
+<section class="oppsett">
+    <a class="kolonne1"> Lokale serverdigheter</a>
+    <div class="kolonne2">
+        <table>
+            <tr>
+                <th> her er det mye morro, hos parkland er det aldri stopp!</th>
+                <th><img src="bilder/pool.jpeg"></th>
+            </tr>
+
+        </table>
+    </div>
+</section>
+
+<style>
+     .oppsett {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 80rem;
+        border: 10px solid #6d6362;
+    }
+    th, td {
+        border: 1px solid #ffffff;
+        padding: 8px;
+        text-align: left;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .bestilling{
+        background-color: white;
+    }
+
+    .kolonne1 {
+        background-color: #856562;
+    }
+    .kolonne1, .kolonne2 {
+        border: 2px solid black;
+        grid-column: span 3;
+    }
+    .kolonne1 {
+        color: white;
+        font-size: 5rem;
+        text-align: center;
+    }
+</style>
